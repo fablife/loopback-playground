@@ -6,6 +6,7 @@ module.exports = function(TestModel) {
 		var Role = TestModel.app.models.Role;
 
 		var current = loopback.getCurrentContext();
+		console.log(current.active.accessToken);
     if (! current) {
         console.log("after save: context not set");
         next("No Context");
