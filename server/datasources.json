@@ -1,6 +1,11 @@
 {
   "db": {
+    "host": "localhost",
+    "database": "loopback_playground",
+    "username": "playground",
+    "password": "playground",
     "name": "db",
-    "connector": "memory"
+    "debug": true,
+    "connector": "postgresql"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "ThroughModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+	    "src": {
+      "type": "belongsTo",
+      "model": "TestModel",
+      "foreignKey": "srcId"
+    },
+    "dest": {
+      "type": "belongsTo",
+      "model": "TestModel",
+      "foreignKey": "destId"
+    }
+
+	},
+  "acls": [],
+  "methods": {}
+}

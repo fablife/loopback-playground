@@ -34,6 +34,14 @@
   },
   "TestModel": {
     "dataSource": "db",
-    "public": true 
+    "public": true
+  },
+  "another-test-model": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ThroughModel": {
+    "dataSource": "db",
+    "public": true
   }
 }

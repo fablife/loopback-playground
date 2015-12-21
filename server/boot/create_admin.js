@@ -1,7 +1,7 @@
 var logger = require("tracer").colorConsole();
 
 module.exports = function(app, cb) {
-
+/*
     var User				= app.models.User;
     var Role 				= app.models.Role;
     var RoleMapping = app.models.RoleMapping;
@@ -48,4 +48,6 @@ module.exports = function(app, cb) {
 				});
 			});
 		});
+*/
+cb();
 }

@@ -11,7 +11,21 @@
     }
   },
   "validations": [],
-  "relations": {},
-  "acls": [],
+  "relations": {
+    "hasMany": {
+      "type": "hasMany",
+      "model": "TestModel",
+      "foreignKey": "srcId",
+      "through": "ThroughModel"
+    }
+  },
+  "acls": [
+		{
+		  "accessType": "WRITE",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+	],
   "methods": {}
 }
